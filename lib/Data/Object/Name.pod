@@ -33,6 +33,24 @@ This package implements the following methods:
 
 =cut
 
+=head2 dist
+
+  dist() : Str
+
+The dist method returns a package distribution representation of the name.
+
+=over 4
+
+=item dist example #1
+
+  # given: synopsis
+
+  my $dist = $name->dist; # FooBar-Baz
+
+=back
+
+=cut
+
 =head2 file
 
   file() : Str
