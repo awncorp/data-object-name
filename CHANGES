@@ -1,6 +1,12 @@
 Changelog for Data-Object-Name
 
-2.01 2020-02-17T05:25:06
+2.02 2020-05-01T01:44:26
+ - Added release updates
+ - Add "dist" method
+ - Add meta data
+
+2.01 2020-02-17T05:25:07
+ - Built release version 2.01
  - Added release updates
  - Re-releasing to the CPAN
 
