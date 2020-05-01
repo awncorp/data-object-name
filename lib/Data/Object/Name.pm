@@ -14,6 +14,11 @@ my $sep = qr/'|__|::|\\|\//;
 
 # METHODS
 
+method dist() {
+
+  return $self->label =~ s/_/-/gr;
+}
+
 method file() {
   return $$self if $self->lookslike_a_file;
 
