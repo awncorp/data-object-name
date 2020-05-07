@@ -66,6 +66,12 @@ method lookslike_a_path() {
   return $string =~ /^[A-Z](?:(?:\w|\\|\/|[\:\.]{1}[a-zA-Z0-9])*[a-zA-Z0-9])?$/;
 }
 
+method lookslike_a_pragma() {
+  my $string = $$self;
+
+  return $string =~ /^\[\w+\]$/;
+}
+
 method new($class: $name = '') {
 
   return bless \$name, $class;
@@ -73,6 +79,8 @@ method new($class: $name = '') {
 
 method package() {
   return $$self if $self->lookslike_a_package;
+
+  return substr($$self, 1, -1) if $self->lookslike_a_pragma;
 
   my $string = $$self;
 
