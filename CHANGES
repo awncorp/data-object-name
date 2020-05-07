@@ -1,1 +1,24 @@
 Changelog for Data-Object-Name
+
+2.03 2020-05-07T04:05:46
+ - Added release updates
+ - Updated documentation
+ - Hide and ignore support files
+ - Add "pragma" support
+
+2.02 2020-05-01T01:44:27
+ - Built release version 2.02
+ - Added release updates
+ - Add "dist" method
+ - Add meta data
+
+2.01 2020-02-17T05:25:07
+ - Built release version 2.01
+ - Added release updates
+ - Re-releasing to the CPAN
+
+2.00 2020-02-06T00:25:17
+ - Built release version 2.00
+ - Added release updates
+ - Extract From Framework
+ - Initial commit
